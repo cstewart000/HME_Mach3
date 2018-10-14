@@ -2,6 +2,7 @@
 'Created: C. Stewart cstewart000@gmail.com 24/02/2018
 '25/02/2018 - Change to absolute co-ords for Z
 '03/06/2018 - Turn off coolant call, added turn off Z limt for tools with long len.
+'14/10/2018 - Changed move to tool cutting location to after 'OK'
 
 'TODO read if CNC has been zeroed in session'
 
@@ -31,11 +32,6 @@ selectedToolHeight = GetToolParam(selectedToolNum, 2)
 'Retract to safe ZsafeABS - Machine coords
 Code "G53 Z" & ZsafeABS & "F"&  ZfeedRateRetract
 
-'Move to tool change location - Machine coords'
-Code "G53 X" & XcoordToolChangeABS & " Y" & YcoordToolChangeABS & "F"&  FeedRateJog
-
-
-
 ' Check tool lenght (if greater than 60 - turn off Z++ limit)
 If selectedToolHeight >= 60 Then
 	ret = MachMsg("Tool selected is too long for vaccum extraction, please remove vacuum shoe and press OK."&  Chr(10) &  "Click 'NO' to abort!" & Chr(10) & "Click 'CANCEL' to skip", "REMOVE VACCUM SHOE", 3)
@@ -63,11 +59,12 @@ Else
 End If
 
 
-
-
 'ret = MsgBox("Please insert tool number " & selectedToolCompleteDesc & " Once the tool has been changed, hit 'Yes' - Warning! 'No' will abort!", 68, "Has Tool been Changed?")
 ret = MachMsg("Please insert tool number " & selectedToolCompleteDesc & Chr(10) & "Once the tool has been changed, click 'Yes'" & Chr(10) & "Click 'NO' to abort!" & Chr(10) & "Click 'CANCEL' to skip", "CHANGE THE TOOL", 3)
 If ret = 6 Then
+
+	'Move to tool change location - Machine coords'
+	Code "G53 X" & XcoordToolChangeABS & " Y" & YcoordToolChangeABS & "F"&  FeedRateJog
 
 	SetCurrentTool(GetSelectedTool())
 	Message( "Tool changed to: " & selectedToolCompleteDesc)
