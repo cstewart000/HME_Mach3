@@ -1,1 +1,4 @@
-DoSpinStop()Code "M9"
+DoSpinStop()
+Code "M9"
+
+MsgBox("You're not finsished yet!" & CHAR(10) & "Please remove and store/bin leftover materials,"  & CHAR(10) & "Vaccum down the table,")
