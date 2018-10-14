@@ -1,0 +1,2404 @@
+{
+    "data": [
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "standard Cutter",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 35,
+                "LCF": 19,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 55,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 20,
+                "thread-profile-angle": 0,
+                "tip-diameter": 4,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "035207e1-140a-4972-a9c4-4bf454c0bc6b",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1522572663733,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 141,
+                "length-offset": 141,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 141,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "14eb9077-77bb-4b82-99cb-4e5a2c373194",
+            "shaft": {
+                "guid": "4378e5b2-7172-4d28-af63-67c7f3018e04",
+                "segments": [
+                    {
+                        "height": 10,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    }
+                ],
+                "type": "shaft",
+                "unit": "millimeters"
+            },
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.14999999999999999,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 150.79644737231001,
+                    "v_f": 3600,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Standard 6mm drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 48,
+                "LCF": 48,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 75,
+                "RE": 0,
+                "SFDM": 4,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 48,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "0b8d6433-1797-40e3-849d-675f15cad7dc",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1522474169803,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 26,
+                "length-offset": 26,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 26,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "3bca6e02-74df-4c7e-b5cc-55b7619eb020",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "n": 8000,
+                    "n_ramp": 8000,
+                    "v_c": 150.79644737231001,
+                    "v_f": 0,
+                    "v_f_leadIn": 0,
+                    "v_f_leadOut": 0,
+                    "v_f_plunge": 800,
+                    "v_f_ramp": 0,
+                    "v_f_retract": 1000
+                }
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "standard Cutter",
+            "geometry": {
+                "CSP": false,
+                "DC": 2,
+                "HAND": true,
+                "LB": 31,
+                "LCF": 8,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 51,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 8,
+                "thread-profile-angle": 0,
+                "tip-diameter": 2,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "1193ee02-72ed-4d80-875c-e0c71f7989b4",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1521855601239,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 121,
+                "length-offset": 121,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 121,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "53a61612-94fc-4267-9c22-c7e4693ff5d0",
+            "shaft": {
+                "guid": "65f21684-686b-4e5f-9818-f30c21152e9b",
+                "segments": [
+                    {
+                        "height": 10,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    }
+                ],
+                "type": "shaft",
+                "unit": "millimeters"
+            },
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.14999999999999999,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 75.398223686155006,
+                    "v_f": 3600,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "standard Cutter",
+            "geometry": {
+                "CSP": false,
+                "DC": 14,
+                "HAND": true,
+                "LB": 53,
+                "LCF": 26,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 83,
+                "RE": 0,
+                "SFDM": 14,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 36,
+                "thread-profile-angle": 0,
+                "tip-diameter": 14,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "15b2e258-0332-49cd-aaf7-db700873e376",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1526169731324,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 114,
+                "length-offset": 114,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 114,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "79422f2d-c408-4346-b349-a2ba00f654d9",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.14999999999999999,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 527.78756580308504,
+                    "v_f": 3600,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Standard 12mm drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 12,
+                "HAND": true,
+                "LB": 48,
+                "LCF": 48,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 75,
+                "RE": 0,
+                "SFDM": 4,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 48,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "1c0877a4-ef12-4592-9bc6-d6e0e370894a",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1527546156042,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 212,
+                "length-offset": 212,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 212,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "a22c2838-c2dc-4887-ab73-39cd9603ecd1",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "n": 8000,
+                    "n_ramp": 8000,
+                    "v_c": 301.59289474462003,
+                    "v_f": 0,
+                    "v_f_leadIn": 0,
+                    "v_f_leadOut": 0,
+                    "v_f_plunge": 800,
+                    "v_f_ramp": 0,
+                    "v_f_retract": 1000
+                }
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Standard 2mm drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 2,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 20,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 58,
+                "RE": 0,
+                "SFDM": 2,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 25,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "34b50259-dc52-4f36-a040-0d7c6b7eeb02",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1521855788954,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 22,
+                "length-offset": 22,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 22,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "a5b137d3-a911-4a9c-a9bd-f1a588055268",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "n": 8000,
+                    "n_ramp": 8000,
+                    "v_c": 50.265482457436697,
+                    "v_f": 0,
+                    "v_f_leadIn": 0,
+                    "v_f_leadOut": 0,
+                    "v_f_plunge": 800,
+                    "v_f_ramp": 0,
+                    "v_f_retract": 1000
+                }
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.10000000000000001,
+                "HAND": true,
+                "LB": 25,
+                "LCF": 11,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 32,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 45,
+                "TP": 0,
+                "shoulder-length": 15,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0.10000000000000001,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "3729df8a-25b8-4cff-8d7d-656717aa53f4",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1530410984693,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 42,
+                "length-offset": 42,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 42,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "3d7c34a7-6232-45d4-938e-d7d9eb8e1248",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.041666666666666699,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 3.76991118430775,
+                    "v_f": 1000,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 1200
+                }
+            },
+            "tapered-type": "tapered_bull_nose",
+            "type": "tapered mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "standard Cutter",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 65,
+                "LCF": 20,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 95,
+                "RE": 4,
+                "SFDM": 8,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 32,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "3b8b3852-17e3-404e-a346-f3b513fa20f9",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1521857787105,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 185,
+                "length-offset": 185,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 185,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "95fcd1f7-830d-4954-ad2e-88aa792ee007",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.14999999999999999,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 301.59289474462003,
+                    "v_f": 3600,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "ball end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 10,
+                "HAND": true,
+                "LB": 20,
+                "LCF": 9,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 45,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 30,
+                "TP": 0,
+                "shoulder-length": 12,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "3d7c34a7-6232-45d4-938e-d7d9eb8e1248",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1530411120273,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 43,
+                "length-offset": 43,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 43,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.041666666666666699,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 376.99111843077497,
+                    "v_f": 1000,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 1000,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "chamfer mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "description": "Laser 2.5W",
+            "geometry": {
+                "CW": 2,
+                "JET_HEAD_CLEARANCE": 1,
+                "JET_NOZZLE_DIAMETER": 2
+            },
+            "guid": "40189ed7-ef47-42b4-9bf1-fdaf530d5cc0",
+            "holder": {
+                "description": "Laser Cutter Head",
+                "guid": "48b000c0-b7b5-438c-8a01-5c03f563a7d0",
+                "last_modified": 1485790620819,
+                "product-id": "",
+                "segments": [
+                    {
+                        "height": 4.9657,
+                        "lower-diameter": 4.7751999999999999,
+                        "upper-diameter": 19.2532
+                    },
+                    {
+                        "height": 1.524,
+                        "lower-diameter": 19.2532,
+                        "upper-diameter": 19.2532
+                    },
+                    {
+                        "height": 2.54,
+                        "lower-diameter": 12.699999999999999,
+                        "upper-diameter": 12.699999999999999
+                    },
+                    {
+                        "height": 17.386299999999999,
+                        "lower-diameter": 25.399999999999999,
+                        "upper-diameter": 31.75
+                    },
+                    {
+                        "height": 25.399999999999999,
+                        "lower-diameter": 31.75,
+                        "upper-diameter": 31.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1524901690555,
+            "post-process": {
+                "comment": "",
+                "diameter-offset": 71,
+                "length-offset": 71,
+                "manual-tool-change": true,
+                "number": 71
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "f2a39429-77ea-44e4-adbd-245ee1fed9a3",
+            "start-values": {
+                "*": {
+                    "machineQualityControl": "manual",
+                    "v_f": 250,
+                    "v_f_leadIn": 250,
+                    "v_f_leadOut": 250
+                }
+            },
+            "type": "laser cutter",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Drag Knife",
+            "geometry": {
+                "CSP": false,
+                "DC": 2,
+                "HAND": true,
+                "LB": 65,
+                "LCF": 5,
+                "NOF": 1,
+                "NT": 0,
+                "OAL": 75,
+                "RE": 0,
+                "SFDM": 9,
+                "SIG": 45,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 7,
+                "thread-profile-angle": 0,
+                "tip-diameter": 2,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "4229fa62-247b-4d4b-9db1-72019fa6d92e",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.14799999999999999,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.83599999999999997,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.17599999999999999,
+                        "lower-diameter": 1.5700000000000001,
+                        "upper-diameter": 1.5700000000000001
+                    },
+                    {
+                        "height": 0.089999999999999997,
+                        "lower-diameter": 1.5700000000000001,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.42499999999999999,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.050000000000000003,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.8500000000000001
+                    },
+                    {
+                        "height": 0.029999999999999999,
+                        "lower-diameter": 2.4420000000000002,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.14499999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.079000000000000001,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.2149999999999999
+                    },
+                    {
+                        "height": 0.11799999999999999,
+                        "lower-diameter": 2.2149999999999999,
+                        "upper-diameter": 2.2149999999999999
+                    },
+                    {
+                        "height": 0.079000000000000001,
+                        "lower-diameter": 2.2149999999999999,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.14299999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.029999999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.4420000000000002
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1519444537088,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 61,
+                "length-offset": 61,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 61,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "ff4b295c-4b4f-4df9-a673-6b987b47015c",
+            "start-values": {
+                "*": {
+                    "f_n": 0,
+                    "n": 0,
+                    "n_ramp": 0,
+                    "v_c": 0,
+                    "v_f": 1000,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1000,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 1000
+                }
+            },
+            "type": "counter sink",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Standard 3mm drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 3,
+                "HAND": true,
+                "LB": 40,
+                "LCF": 40,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 60,
+                "RE": 0,
+                "SFDM": 3,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 40,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "4deba72c-0694-4ecd-b55d-33a722fa5e1f",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1519444511168,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 23,
+                "length-offset": 23,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 23,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "3c25b8fc-ab72-48b4-af43-a6d9a1e09edf",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "n": 8000,
+                    "n_ramp": 8000,
+                    "v_c": 75.398223686155006,
+                    "v_f": 0,
+                    "v_f_leadIn": 0,
+                    "v_f_leadOut": 0,
+                    "v_f_plunge": 800,
+                    "v_f_ramp": 0,
+                    "v_f_retract": 1000
+                }
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "45' 6mm shank chamfer tool",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 24,
+                "LCF": 12,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 52,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 45,
+                "TP": 0,
+                "shoulder-length": 20,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "54bc29fe-8328-4ac5-98fa-11e2d7507139",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "756723d2-65d6-4dc4-9b0d-454584874e46",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "b3abf7fe-7cb1-45fa-868a-2b064f800526",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1534555773358,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 41,
+                "length-offset": 41,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 41,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "d008bf26-5e98-42e1-856a-fcda22b4bff4",
+            "start-values": {
+                "*": {
+                    "f_n": 0.027777777777777801,
+                    "f_z": 0.041666666666666699,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 226.19467105846499,
+                    "v_f": 1000,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 333.33333333333297,
+                    "v_f_ramp": 333.33333333333297,
+                    "v_f_retract": 333.33333333333297
+                }
+            },
+            "type": "chamfer mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Standard 5mm drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 5,
+                "HAND": true,
+                "LB": 48,
+                "LCF": 48,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 75,
+                "RE": 0,
+                "SFDM": 4,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 48,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "55eb7fa2-884a-44da-9aa7-728f1188fc20",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1527546004239,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 25,
+                "length-offset": 25,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 25,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "6669dc6a-a6f6-4f5c-bbd7-5ab5535b2bfb",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "n": 8000,
+                    "n_ramp": 8000,
+                    "v_c": 125.66370614359199,
+                    "v_f": 0,
+                    "v_f_leadIn": 0,
+                    "v_f_leadOut": 0,
+                    "v_f_plunge": 800,
+                    "v_f_ramp": 0,
+                    "v_f_retract": 1000
+                }
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Standard 8mm drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 8,
+                "HAND": true,
+                "LB": 48,
+                "LCF": 48,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 75,
+                "RE": 0,
+                "SFDM": 4,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 48,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "57cd4a7c-6eb1-4f01-b1af-8093fa134007",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1527546094461,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 28,
+                "length-offset": 28,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 28,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "3f6fbaee-88d6-4130-adb8-19f6dba9d0f0",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "n": 8000,
+                    "n_ramp": 8000,
+                    "v_c": 201.06192982974699,
+                    "v_f": 0,
+                    "v_f_leadIn": 0,
+                    "v_f_leadOut": 0,
+                    "v_f_plunge": 800,
+                    "v_f_ramp": 0,
+                    "v_f_retract": 1000
+                }
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "6mm slot cutting tool (3mm depth)",
+            "geometry": {
+                "CSP": false,
+                "DC": 12.5,
+                "HAND": true,
+                "LB": 20,
+                "LCF": 6,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 46.5,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 20,
+                "thread-profile-angle": 0,
+                "tip-diameter": 12.5,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "6384d093-e91d-4f76-b01d-bdea60b2aef5",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1520832240253,
+            "post-process": {
+                "break-control": false,
+                "comment": "6mm slot cutting tool (3mm depth)",
+                "diameter-offset": 43,
+                "length-offset": 43,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 43,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "2bd2c08c-88ab-404e-8641-6a1028d879fd",
+            "start-values": {
+                "*": {
+                    "f_n": 0.0083333333333333297,
+                    "f_z": 0.041666666666666699,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 471.23889803846902,
+                    "v_f": 1000,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 100,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 100
+                }
+            },
+            "type": "slot mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Standard 10mm drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 10,
+                "HAND": true,
+                "LB": 48,
+                "LCF": 48,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 75,
+                "RE": 0,
+                "SFDM": 4,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 48,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "696a4bfb-e9bc-422f-be10-5791cde8858b",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1527546125739,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 210,
+                "length-offset": 210,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 210,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "65db3696-2495-4382-872b-bb437dd789a9",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "n": 8000,
+                    "n_ramp": 8000,
+                    "v_c": 251.32741228718299,
+                    "v_f": 0,
+                    "v_f_leadIn": 0,
+                    "v_f_leadOut": 0,
+                    "v_f_plunge": 800,
+                    "v_f_ramp": 0,
+                    "v_f_retract": 1000
+                }
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "standard Cutter",
+            "geometry": {
+                "CSP": false,
+                "DC": 5.5,
+                "HAND": true,
+                "LB": 36,
+                "LCF": 18,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 36,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 24,
+                "thread-profile-angle": 0,
+                "tip-diameter": 5.5,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "698ce5c3-91ef-4804-beb8-997f2034c5e0",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1539288804600,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 162,
+                "length-offset": 162,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 162,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "shaft": {
+                "guid": "5dec27b7-f073-404d-9293-c794495ccee9",
+                "segments": [
+                    {
+                        "height": 10,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    }
+                ],
+                "type": "shaft",
+                "unit": "millimeters"
+            },
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.125,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 207.34511513692635,
+                    "v_f": 3000,
+                    "v_f_leadIn": 3000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 1000,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.10000000000000001,
+                "HAND": true,
+                "LB": 12.300000000000001,
+                "LCF": 12,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 30,
+                "RE": 0.10000000000000001,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 45,
+                "TP": 0,
+                "shoulder-length": 12.1,
+                "thread-profile-angle": 0,
+                "tip-diameter": -0.10000000000000001,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "746a5556-23d4-4b9d-9ae5-d3afb992a377",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.14799999999999999,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.83599999999999997,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.17599999999999999,
+                        "lower-diameter": 1.5700000000000001,
+                        "upper-diameter": 1.5700000000000001
+                    },
+                    {
+                        "height": 0.089999999999999997,
+                        "lower-diameter": 1.5700000000000001,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.42499999999999999,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.050000000000000003,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.8500000000000001
+                    },
+                    {
+                        "height": 0.029999999999999999,
+                        "lower-diameter": 2.4420000000000002,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.14499999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.079000000000000001,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.2149999999999999
+                    },
+                    {
+                        "height": 0.11799999999999999,
+                        "lower-diameter": 2.2149999999999999,
+                        "upper-diameter": 2.2149999999999999
+                    },
+                    {
+                        "height": 0.079000000000000001,
+                        "lower-diameter": 2.2149999999999999,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.14299999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.029999999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.4420000000000002
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1539289207608,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 111,
+                "length-offset": 111,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 111,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "*": {
+                    "f_n": 0.066666599999999993,
+                    "f_z": 0.066666666666666666,
+                    "n": 5000,
+                    "n_ramp": 5000,
+                    "v_c": 1.5707963267948968,
+                    "v_f": 1000,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 333.33299999999997,
+                    "v_f_ramp": 333.33299999999997,
+                    "v_f_retract": 333.33299999999997
+                }
+            },
+            "tapered-type": "tapered_bull_nose",
+            "type": "tapered mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "description": "Vacuum",
+            "guid": "756723d2-65d6-4dc4-9b0d-454584874e46",
+            "last_modified": 1518420620534,
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "b3abf7fe-7cb1-45fa-868a-2b064f800526",
+            "segments": [
+                {
+                    "height": 100,
+                    "lower-diameter": 80,
+                    "upper-diameter": 80
+                }
+            ],
+            "type": "holder",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 30,
+                "LCF": 12,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 30,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 45,
+                "TP": 0,
+                "shoulder-length": 18,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0.10000000000000001,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "7ff57189-5535-4631-9cad-379624685cd9",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.14799999999999999,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.83599999999999997,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.17599999999999999,
+                        "lower-diameter": 1.5700000000000001,
+                        "upper-diameter": 1.5700000000000001
+                    },
+                    {
+                        "height": 0.089999999999999997,
+                        "lower-diameter": 1.5700000000000001,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.42499999999999999,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.050000000000000003,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.8500000000000001
+                    },
+                    {
+                        "height": 0.029999999999999999,
+                        "lower-diameter": 2.4420000000000002,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.14499999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.079000000000000001,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.2149999999999999
+                    },
+                    {
+                        "height": 0.11799999999999999,
+                        "lower-diameter": 2.2149999999999999,
+                        "upper-diameter": 2.2149999999999999
+                    },
+                    {
+                        "height": 0.079000000000000001,
+                        "lower-diameter": 2.2149999999999999,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.14299999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.029999999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.4420000000000002
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1530405943657,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 2,
+                "length-offset": 2,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 2,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "*": {
+                    "f_n": 0.066666600000000006,
+                    "f_z": 0.066666666666666693,
+                    "n": 5000,
+                    "n_ramp": 5000,
+                    "v_c": 94.247779607693801,
+                    "v_f": 1000,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 333.33300000000003,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 333.33300000000003
+                }
+            },
+            "type": "chamfer mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Vaccum only",
+            "geometry": {
+                "CSP": false,
+                "DC": 60,
+                "HAND": true,
+                "LB": 1,
+                "LCF": 0.10000000000000001,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 1,
+                "RE": 0,
+                "SFDM": 60,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 0.20000000000000001,
+                "thread-profile-angle": 0,
+                "tip-diameter": 60,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "90e82313-ad83-4505-80a3-383c6f68dc4a",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "756723d2-65d6-4dc4-9b0d-454584874e46",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "b3abf7fe-7cb1-45fa-868a-2b064f800526",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1537571574182,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 80,
+                "length-offset": 80,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 80,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "*": {
+                    "f_n": 240,
+                    "f_z": 360,
+                    "n": 5,
+                    "n_ramp": 5,
+                    "v_c": 0.94247779607693793,
+                    "v_f": 3600,
+                    "v_f_leadIn": 3600,
+                    "v_f_leadOut": 3100,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 1200,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "standard Cutter",
+            "geometry": {
+                "CSP": false,
+                "DC": 3.7999999999999998,
+                "HAND": true,
+                "LB": 35,
+                "LCF": 19,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 55,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 20,
+                "thread-profile-angle": 0,
+                "tip-diameter": 3.7999999999999998,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "a1317758-c910-4276-ba09-d08257d29c48",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1522572686640,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 142,
+                "length-offset": 142,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 142,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "6781e060-6e18-461b-a211-05fb91e85be1",
+            "shaft": {
+                "guid": "4487e11f-e161-4353-9d53-bf3421e8b68d",
+                "segments": [
+                    {
+                        "height": 10,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    }
+                ],
+                "type": "shaft",
+                "unit": "millimeters"
+            },
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.14999999999999999,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 143.25662500369501,
+                    "v_f": 3600,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "Vacuum",
+            "geometry": {
+                "CSP": false,
+                "DC": 80,
+                "HAND": true,
+                "LB": 20,
+                "LCF": 5,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 50,
+                "RE": 0,
+                "SFDM": 80,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 10,
+                "thread-profile-angle": 0,
+                "tip-diameter": 80,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "b37a4e99-e755-48b5-8158-2424d9b9f6cf",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1521939888432,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "a1e36bbf-621e-4442-a0b5-489a1545aaf6",
+            "start-values": {
+                "*": {
+                    "f_n": 0,
+                    "n": 0,
+                    "n_ramp": 0,
+                    "v_c": 0,
+                    "v_f": 7200,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 333.33300000000003,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 333.33300000000003
+                }
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "fly mill face cutter",
+            "geometry": {
+                "CSP": false,
+                "DC": 22,
+                "HAND": true,
+                "LB": 18,
+                "LCF": 12.5,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 46,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 18,
+                "thread-profile-angle": 0,
+                "tip-diameter": 22,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "b89ff2a3-a917-4f9c-94e7-4ff302cb6366",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1519444528647,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 32,
+                "length-offset": 32,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 32,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "a3989143-2afc-4d8b-b0cf-1b076bf49674",
+            "shaft": {
+                "guid": "bfb4d83e-6e40-4a5c-b5e7-5e73bfa71c60",
+                "segments": [
+                    {
+                        "height": 10,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    }
+                ],
+                "type": "shaft",
+                "unit": "millimeters"
+            },
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.14999999999999999,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 829.38046054770496,
+                    "v_f": 3600,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "standard Cutter",
+            "geometry": {
+                "CSP": false,
+                "DC": 6,
+                "HAND": true,
+                "LB": 36,
+                "LCF": 18,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 36,
+                "RE": 0,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 24,
+                "thread-profile-angle": 0,
+                "tip-diameter": 6,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "c17685e5-a2ab-4469-bfc1-e35b075b2215",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1521928518931,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 161,
+                "length-offset": 161,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 161,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "d5136f1a-c386-4994-8834-aad64caea196",
+            "shaft": {
+                "guid": "1f3e8f5c-5f48-43a6-8643-380de56c5b01",
+                "segments": [
+                    {
+                        "height": 10,
+                        "lower-diameter": 6,
+                        "upper-diameter": 6
+                    }
+                ],
+                "type": "shaft",
+                "unit": "millimeters"
+            },
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "f_z": 0.14999999999999999,
+                    "n": 12000,
+                    "n_ramp": 12000,
+                    "v_c": 226.19467105846499,
+                    "v_f": 3600,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 1200,
+                    "v_f_ramp": 333.33300000000003,
+                    "v_f_retract": 1200
+                }
+            },
+            "type": "flat end mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "Mill Generic",
+            "description": "",
+            "geometry": {
+                "CSP": false,
+                "DC": 0.10000000000000001,
+                "HAND": true,
+                "LB": 25,
+                "LCF": 3,
+                "NOF": 3,
+                "NT": 0,
+                "OAL": 60,
+                "RE": 0.10000000000000001,
+                "SFDM": 6,
+                "SIG": 0,
+                "TA": 45,
+                "TP": 0,
+                "shoulder-length": 3,
+                "thread-profile-angle": 0,
+                "tip-diameter": -0.10000000000000001,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "efe0d359-9743-4a62-bfef-d70d7366e5ec",
+            "holder": {
+                "description": "Maritool CAT40-ER32-2.35",
+                "guid": "e800051b-e2d6-4699-a2b6-dad6466a0a0c",
+                "last_modified": 1485790626152,
+                "product-id": "CAT40-ER32-2.35",
+                "segments": [
+                    {
+                        "height": 0.14799999999999999,
+                        "lower-diameter": 1.5,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.83599999999999997,
+                        "lower-diameter": 1.97,
+                        "upper-diameter": 1.97
+                    },
+                    {
+                        "height": 0.17599999999999999,
+                        "lower-diameter": 1.5700000000000001,
+                        "upper-diameter": 1.5700000000000001
+                    },
+                    {
+                        "height": 0.089999999999999997,
+                        "lower-diameter": 1.5700000000000001,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.42499999999999999,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    },
+                    {
+                        "height": 0.050000000000000003,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.8500000000000001
+                    },
+                    {
+                        "height": 0.029999999999999999,
+                        "lower-diameter": 2.4420000000000002,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.14499999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.079000000000000001,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.2149999999999999
+                    },
+                    {
+                        "height": 0.11799999999999999,
+                        "lower-diameter": 2.2149999999999999,
+                        "upper-diameter": 2.2149999999999999
+                    },
+                    {
+                        "height": 0.079000000000000001,
+                        "lower-diameter": 2.2149999999999999,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.14299999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.5019999999999998
+                    },
+                    {
+                        "height": 0.029999999999999999,
+                        "lower-diameter": 2.5019999999999998,
+                        "upper-diameter": 2.4420000000000002
+                    },
+                    {
+                        "height": 0.125,
+                        "lower-diameter": 1.75,
+                        "upper-diameter": 1.75
+                    }
+                ],
+                "type": "holder",
+                "unit": "inches",
+                "vendor": "Maritool"
+            },
+            "last_modified": 1539289453982,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 1,
+                "length-offset": 1,
+                "live": true,
+                "manual-tool-change": false,
+                "number": 1,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "start-values": {
+                "*": {
+                    "f_n": 0.066666666666666666,
+                    "f_z": 0.066666666666666666,
+                    "n": 5000,
+                    "n_ramp": 5000,
+                    "v_c": 1.5707963267948968,
+                    "v_f": 1000,
+                    "v_f_leadIn": 1000,
+                    "v_f_leadOut": 1000,
+                    "v_f_plunge": 333.33333333333331,
+                    "v_f_ramp": 333.33333333333331,
+                    "v_f_retract": 333.33333333333331
+                }
+            },
+            "tapered-type": "tapered_bull_nose",
+            "type": "tapered mill",
+            "unit": "millimeters",
+            "vendor": ""
+        },
+        {
+            "BMC": "hss",
+            "GRADE": "generic",
+            "description": "Standard 4mm drill",
+            "geometry": {
+                "CSP": false,
+                "DC": 4,
+                "HAND": true,
+                "LB": 48,
+                "LCF": 48,
+                "NOF": 2,
+                "NT": 0,
+                "OAL": 75,
+                "RE": 0,
+                "SFDM": 4,
+                "SIG": 118,
+                "TA": 0,
+                "TP": 0,
+                "shoulder-length": 48,
+                "thread-profile-angle": 0,
+                "tip-diameter": 0,
+                "tip-length": 0,
+                "tip-offset": 0
+            },
+            "guid": "f240bda3-3705-4f31-a1af-e23686ea7366",
+            "holder": {
+                "description": "Vacuum",
+                "guid": "3db8c810-00c4-42f5-b84e-f124c16745db",
+                "last_modified": 1518420620534,
+                "product-id": "",
+                "product-link": "",
+                "reference_guid": "df7f01e7-bece-4f6c-a85c-9ed2c1a1cb9e",
+                "segments": [
+                    {
+                        "height": 100,
+                        "lower-diameter": 80,
+                        "upper-diameter": 80
+                    }
+                ],
+                "type": "holder",
+                "unit": "millimeters",
+                "vendor": ""
+            },
+            "last_modified": 1522474150279,
+            "post-process": {
+                "break-control": false,
+                "comment": "",
+                "diameter-offset": 24,
+                "length-offset": 24,
+                "live": true,
+                "manual-tool-change": true,
+                "number": 24,
+                "tool-coolant": "flood",
+                "turret": 0
+            },
+            "product-id": "",
+            "product-link": "",
+            "reference_guid": "cbffceec-8a13-44e3-a3da-4809bb78791e",
+            "start-values": {
+                "*": {
+                    "f_n": 0.10000000000000001,
+                    "n": 8000,
+                    "n_ramp": 8000,
+                    "v_c": 100.530964914873,
+                    "v_f": 0,
+                    "v_f_leadIn": 0,
+                    "v_f_leadOut": 0,
+                    "v_f_plunge": 800,
+                    "v_f_ramp": 0,
+                    "v_f_retract": 1000
+                }
+            },
+            "type": "drill",
+            "unit": "millimeters",
+            "vendor": ""
+        }
+    ],
+    "version": 1
+}
