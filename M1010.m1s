@@ -1,0 +1,18 @@
+'M1010.m1s
+'Homing script
+
+Message("Homing X Axis...")
+DoButton(23)
+
+Message("Homing Y Axis...")
+DoButton(24)
+
+Message("Homing Z Axis...")
+DoButton(25)
+
+DoOEMButton(133)
+DoOEMButton(134)
+DoOEMButton(135)
+
+'set homing variable to 1
+setvar(1000, 1)

@@ -1,0 +1,18 @@
+'M3005.m1s
+'On startup initialisation code
+
+'Msg box to user
+
+msgbox("HEY THERE YOU!"& CHAR(10) & "The CNC is a dangerous and sophisticated machine... " & CHAR(10) "Have you been trained?" & CHAR(10) & "Are you confident to use the machine safetly (for you, everyone around you and the machine itself" & CHAR(10) & "By continuing, you accept responsibility for opperation of the machine and any damage, maiming, death etc that may occur."
+
+'set homing variable to 0
+setvar(1000, 0)
+
+int ret = MachMsg("Machine needs to be homed, press OK to start homing, NO to ignore.)
+	if ret = 6 Then
+
+		'run homing script
+		Code M1010
+	end 
+
+
