@@ -1,0 +1,3 @@
+' Show user the current program extents
+Message "MinX=" & MinX() & " MaxX=" & MaxX() & _
+" MinY=" & MinY() & " MaxY=" & MaxY() 

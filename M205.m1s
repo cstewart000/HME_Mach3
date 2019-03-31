@@ -1,0 +1,1 @@
+'Sets current laser point to X0 Y0laserXoff =29.4619laserYoff = 44.8526SetOEMDRO(800,laserXoff)SetOEMDRO(801,laserYoff)

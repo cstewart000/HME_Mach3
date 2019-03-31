@@ -1,0 +1,14 @@
+
+f = 7000
+fretract = 500
+
+' Show user the current program extents
+Message "MinX=" & MinX() & " MaxX=" & MaxX() & _
+" MinY=" & MinY() & " MaxY=" & MaxY() 
+
+Code "G53 G1 Z0 F" & fretract 'retract tool to safe height
+Code "G54 G1 X" & MinX() & " Y"&MinY() & " F" & f
+Code "G1 X" & MinX() & " Y"&MaxY()		
+Code "G1 X" & MaxX() & " Y"&MaxY()
+Code "G1 X" & MaxX() & " Y"&MinY()
+Code "G1 X" & MinX() & " Y"&MinY()
