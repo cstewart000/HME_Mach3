@@ -1,0 +1,56 @@
+;--- Xpadder Controller File ---
+DataType=Controller
+Version=2014.01.01
+
+[Button Locations]
+Button1Location=364,88
+Button2Location=391,62
+Button3Location=336,61
+Button4Location=365,33
+DPadUpLocation=166,141
+DPadRightLocation=198,173
+DPadDownLocation=166,205
+DPadLeftLocation=134,173
+Stick1UpLocation=77,65
+Stick1RightLocation=109,97
+Stick1DownLocation=77,129
+Stick1LeftLocation=45,97
+Stick2UpLocation=295,139
+Stick2RightLocation=327,171
+Stick2DownLocation=295,203
+Stick2LeftLocation=263,171
+TriggerLeftLocation=4,4
+TriggerRightLocation=478,4
+
+[Access]
+DPadUpAccess=POV
+DPadRightAccess=POV
+DPadDownAccess=POV
+DPadLeftAccess=POV
+Stick1XAccess=Axis X
+Stick1YAccess=Axis Y
+Stick2XAccess=Axis RX
+Stick2YAccess=Axis RY
+TriggerLeftAccess=Axis Z
+TriggerRightAccess=Axis Z -
+
+[Names]
+Button1Name=Button 1
+Button2Name=Button 2
+Button3Name=Button 3
+Button4Name=Button 4
+DPadName=DPad
+DPadUpName=Up
+DPadRightName=Right
+DPadDownName=Down
+DPadLeftName=Left
+Stick1Name=Stick 1
+Stick2Name=Stick 2
+StickUpName=Up
+StickRightName=Right
+StickDownName=Down
+StickLeftName=Left
+TriggerLeftName=Trigger Left
+TriggerRightName=Trigger Right
+
+[Image]
